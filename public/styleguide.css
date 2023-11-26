@@ -1,0 +1,40 @@
+:root {
+    --matrix-colours-black: rgba(14, 14, 15, 1);
+    --matrix-colours-electric-green-primary: rgba(235, 255, 37, 1);
+    --matrix-colours-neutrals-grey-4: rgba(231, 231, 234, 1);
+    --matrix-colours-neutrals-grey-6: rgba(187, 187, 195, 1);
+    --matrix-colours-neutrals-grey-8: rgba(50, 51, 58, 1);
+    --matrix-colours-neutrals-grey-9: rgba(25, 25, 29, 1);
+    --matrix-colours-white: rgba(255, 255, 255, 1);
+  }
+  
+  /*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-matrix-colours-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+  
+  [data-matrix-colours-mode="light"] {
+    --matrix-colours-black: rgba(14, 14, 15, 1);
+    --matrix-colours-neutrals-grey-4: rgba(231, 231, 234, 1);
+    --matrix-colours-neutrals-grey-6: rgba(187, 187, 195, 1);
+    --matrix-colours-neutrals-grey-8: rgba(50, 51, 58, 1);
+    --matrix-colours-neutrals-grey-9: rgba(25, 25, 29, 1);
+    --matrix-colours-white: rgba(255, 255, 255, 1);
+  }
+  
+  [data-matrix-colours-mode="dark"] {
+    --matrix-colours-black: rgba(255, 255, 255, 1);
+    --matrix-colours-neutrals-grey-4: rgba(56, 56, 64, 1);
+    --matrix-colours-neutrals-grey-6: rgba(102, 102, 115, 1);
+    --matrix-colours-neutrals-grey-8: rgba(177, 177, 186, 1);
+    --matrix-colours-neutrals-grey-9: rgba(216, 216, 221, 1);
+    --matrix-colours-white: rgba(14, 14, 15, 1);
+  }
+  

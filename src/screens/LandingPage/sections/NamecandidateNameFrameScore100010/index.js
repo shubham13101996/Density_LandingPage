@@ -1,0 +1,1 @@
+export { NamecandidateNameFrameScore100010 } from "./NamecandidateNameFrameScore100010";
